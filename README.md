@@ -6,21 +6,23 @@ https://github.com/AndyGaskell/water_pi
 ## To-do
 - [ ] Solder wires onto PiZero
 - [ ] Write basic script
+- [ ] See if it works
 - [ ] Test with water for a while
 - [ ] Generate output
 - [ ] Serve via the web
+- [ ] log temperature
 
 
 ## Pinouts
 
-Soil Sensor
+### Soil Sensor
 ![soil-sensor-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/soil-sensor-pinout-diagram.png)
 
 
-PiZero
+### PiZero
 ![motozero-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/motozero-pinout-diagram.png)
 
-Pi
+### Pi
 ![pi-gpio-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/pi-gpio-pinout-diagram.png)
 
 
