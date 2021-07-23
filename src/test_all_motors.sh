@@ -82,7 +82,6 @@ gpio -g write 18 1
 sleep 1
 
 echo "motor4 stop"
-gpio -g write 18
- 0
+gpio -g write 18 0
 
 sleep 1
