@@ -32,3 +32,12 @@ https://github.com/AndyGaskell/water_pi
 * Sensor https://www.az-delivery.uk/collections/sensoren/products/feuchtigkeitssensor-modul
 
 
+## Git
+
+`git clone git@github.com:AndyGaskell/water_pi.git`
+
+`git commit -a -m "blah"`
+
+`git push`
+
+`git push origin main`
