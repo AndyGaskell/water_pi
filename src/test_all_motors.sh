@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# this is a test script for the MotoZero control board
+# it goes round each motor making it run for one second
 
 # motor 1
 gpio -g mode 27 out
@@ -80,6 +82,7 @@ gpio -g write 18 1
 sleep 1
 
 echo "motor4 stop"
-gpio -g write 18 0
+gpio -g write 18
+ 0
 
 sleep 1
