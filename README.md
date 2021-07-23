@@ -36,6 +36,10 @@ https://github.com/AndyGaskell/water_pi
 
 `git clone git@github.com:AndyGaskell/water_pi.git`
 
+`git fetch origin`
+
+`git pull`
+
 `git commit -a -m "blah"`
 
 `git push`
