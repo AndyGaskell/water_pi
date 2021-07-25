@@ -11,7 +11,7 @@ function check_and_water {
     echo "motor gpio: $motor_gpio "
 
     # check the sensor
-    sensor_value = $(gpio read $sensor_gpio)
+    sensor_value = $(gpio -g read $sensor_gpio)
 
     if [ sensor_value = 0]
     then
