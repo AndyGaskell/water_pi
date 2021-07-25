@@ -12,17 +12,17 @@ GPIO.setup(DIGIOUT, GPIO.IN)
 time.sleep(2)
 
 sensor_value = GPIO.input(DIGIOUT)
-print('sensor value: ', sensor_value)
+print "sensor value: ", sensor_value
 
 time.sleep(2)
 
 sensor_value = GPIO.input(DIGIOUT)
-print('sensor value: ', sensor_value)
+print "sensor value: ", sensor_value
 
 time.sleep(2)
 
 sensor_value = GPIO.input(DIGIOUT)
-print('sensor value: ', sensor_value)
+print "sensor value: ", sensor_value
 
 time.sleep(2)
 

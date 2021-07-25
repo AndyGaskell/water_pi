@@ -6,7 +6,7 @@
 sensor_gpio=21
 echo "sensor gpio: $sensor_gpio "
 
-gpio -g mode $sensor_gpio in
+gpio mode $sensor_gpio in
 echo "sensor set-up"
 sleep 2
 
