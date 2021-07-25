@@ -11,17 +11,17 @@ echo "sensor set-up"
 sleep 2
 
 # check the sensor
-sensor_value = $(gpio read $sensor_gpio)
+sensor_value=$(gpio read $sensor_gpio)
 echo "sensor value: $sensor_value "
 
 sleep 2
 
 # check the sensor
-sensor_value = $(gpio read $sensor_gpio)
+sensor_value=$(gpio read $sensor_gpio)
 echo "sensor value: $sensor_value "
 
 sleep 2
 
 # check the sensor
-sensor_value = $(gpio read $sensor_gpio)
+sensor_value=$(gpio read $sensor_gpio)
 echo "sensor value: $sensor_value "
