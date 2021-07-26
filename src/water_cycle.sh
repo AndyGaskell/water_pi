@@ -11,9 +11,10 @@ function check_and_water {
     echo "motor gpio: $motor_gpio "
 
     # check the sensor
-    sensor_value = $(gpio -g read $sensor_gpio)
+    sensor_value=$(gpio -g read $sensor_gpio)
+    echo "sensor_value: $sensor_value "
 
-    if [ sensor_value = 0]
+    if [ sensor_value ]
     then
         echo "detected $label is dry"
         gpio -g write $motor_gpio 1
@@ -24,14 +25,14 @@ function check_and_water {
 }
 
 # params
-sensor_1_gpio = 1;
-sensor_2_gpio = 2;
-sensor_3_gpio = 3;
-sensor_4_gpio = 4;
-motor_1_gpio = 5;
-motor_2_gpio = 17;
-motor_3_gpio = 12;
-motor_4_gpio = 25;
+sensor_1_gpio=21;
+sensor_2_gpio=21;
+sensor_3_gpio=21;
+sensor_4_gpio=21;
+motor_1_gpio=5;
+motor_2_gpio=17;
+motor_3_gpio=12;
+motor_4_gpio=18;
 
 # set-up 
 echo "set-up"
@@ -75,5 +76,5 @@ check_and_water 4 $sensor_4_gpio $motor_4_gpio
 
 # check temprature
 /opt/vc/bin/vcgencmd measure_temp
-/opt/vc/bin/vcgencmd measure_temp | awk -F "[=\']" '{print($2}'
+#/opt/vc/bin/vcgencmd measure_temp | awk -F "[=\']" '{print($2}'
 
