@@ -14,7 +14,7 @@ function check_and_water {
     sensor_value=$(gpio -g read $sensor_gpio)
     echo "sensor_value: $sensor_value "
 
-    if [ sensor_value ]
+    if [ $sensor_value -eq 1 ]
     then
         echo "detected $label is dry"
         gpio -g write $motor_gpio 1
