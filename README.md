@@ -4,11 +4,11 @@ A small Pi based plant watering system
 https://github.com/AndyGaskell/water_pi
 
 ## To-do
-- [ ] Solder wires onto PiZero
-- [ ] Write basic script
-- [ ] See if it works
+- [x] Solder wires onto PiZero
+- [x] Write basic script
+- [x] See if it works
 - [ ] Test with water for a while
-- [ ] Generate output
+- [x] Generate output
 - [ ] Serve via the web
 - [ ] log temperature
 
