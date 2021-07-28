@@ -26,6 +26,9 @@ function check_and_water {
 
 }
 
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+echo "water_cycle.sh run at $dt "
+
 # params
 sensor_1_gpio=10;
 sensor_2_gpio=9;
