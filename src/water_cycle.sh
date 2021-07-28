@@ -29,6 +29,7 @@ function check_and_water {
 
 }
 
+echo "-----------------------------"
 dt=$(date '+%d/%m/%Y %H:%M:%S');
 echo "water_cycle.sh run at $dt "
 
@@ -77,6 +78,7 @@ gpio -g mode $sensor_4_gpio in
 echo "sensors set"
 
 sleep 2
+echo "  "
 
 # check sensors and water things
 check_and_water 1 $sensor_1_gpio $motor_1_gpio
