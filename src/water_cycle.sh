@@ -41,7 +41,7 @@ sensor_4_gpio=0;
 motor_1_gpio=5;
 motor_2_gpio=17;
 motor_3_gpio=12;
-motor_4_gpio=18;
+motor_4_gpio=25;
 
 # set-up 
 echo "set-up"
