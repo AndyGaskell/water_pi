@@ -15,9 +15,13 @@ https://github.com/AndyGaskell/water_pi
 
 ## Running it
 
-It's probably best to run it as a cron jub, like...
+It's probably best to run it as a cron job, like...
 
 `*/5 * * * * bash /home/pi/water_pi/src/water_cycle.sh >>/home/pi/water_pi/cron.log`
+
+Editing cron with...
+
+`crontab -e`
 
 
 ## Pinouts
