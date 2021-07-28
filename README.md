@@ -13,6 +13,13 @@ https://github.com/AndyGaskell/water_pi
 - [ ] log temperature
 
 
+## Running it
+
+It's probably best to run it as a cron jub, like...
+
+`*/5 * * * * bash /home/pi/water_pi/src/water_cycle.sh >>/home/pi/water_pi/cron.log`
+
+
 ## Pinouts
 
 ### Soil Sensor
