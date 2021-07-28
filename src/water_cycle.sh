@@ -18,7 +18,7 @@ function check_and_water {
     then
         echo "detected $label is dry"
         gpio -g write $motor_gpio 1
-        sleep 1
+        sleep 10
         gpio -g write $motor_gpio 0
     else 
         echo "detected $label is wet"
