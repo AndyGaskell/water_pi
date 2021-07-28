@@ -20,15 +20,17 @@ function check_and_water {
         gpio -g write $motor_gpio 1
         sleep 1
         gpio -g write $motor_gpio 0
+    else 
+        echo "detected $label is wet"
     fi 
 
 }
 
 # params
-sensor_1_gpio=21;
-sensor_2_gpio=21;
-sensor_3_gpio=21;
-sensor_4_gpio=21;
+sensor_1_gpio=10;
+sensor_2_gpio=9;
+sensor_3_gpio=11;
+sensor_4_gpio=0;
 motor_1_gpio=5;
 motor_2_gpio=17;
 motor_3_gpio=12;

@@ -3,7 +3,7 @@
 # this is a test script for the sensor 
 # it just reads a sensor value
 
-sensor_gpio=21
+sensor_gpio=10
 echo "sensor gpio: $sensor_gpio "
 
 gpio -g mode $sensor_gpio in
