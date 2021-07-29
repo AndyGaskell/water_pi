@@ -24,7 +24,7 @@ function check_and_water {
         echo "detected $label is wet"
     fi 
     
-    sleep 1
+    sleep 2
     echo " "
 
 }
@@ -89,7 +89,7 @@ gpio -g mode $sensor_3_gpio in
 gpio -g mode $sensor_4_gpio in
 echo "sensors set"
 
-sleep 2
+sleep 5
 echo "  "
 
 # check sensors and water things
