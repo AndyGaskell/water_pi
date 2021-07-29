@@ -47,21 +47,21 @@ motor_4_gpio=25;
 echo "set-up"
 
 # set-up motor 1
-gpio -g mode 27 out
 gpio -g mode 24 out
+gpio -g mode 27 out
 gpio -g mode $motor_1_gpio out
 sleep 1
-gpio -g write 27 1
-gpio -g write 24 0
+gpio -g write 24 1
+gpio -g write 27 0
 echo "motor1 set"	
 
 # set-up motor 2
-gpio -g mode 22 out
 gpio -g mode 6 out
+gpio -g mode 22 out
 gpio -g mode $motor_2_gpio out
 sleep 1
-gpio -g write 22 1
-gpio -g write 6 0
+gpio -g write 6 1
+gpio -g write 22 0
 echo "motor2 set"	
 
 # set-up motor 3
