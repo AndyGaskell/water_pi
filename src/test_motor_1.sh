@@ -16,7 +16,7 @@ gpio -g write 24 0
 echo "motor1 go"
 gpio -g write 5 1
 
-sleep 1
+sleep 10
 
 echo "motor1 stop"
 gpio -g write 5 0
