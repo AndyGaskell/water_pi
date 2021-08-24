@@ -3,7 +3,7 @@
 # this is a test script for the MotoZero control board
 # it goes round each motor making it run for one second
 
-# motor 1
+# motor 4
 gpio -g mode 27 out
 gpio -g mode 24 out
 gpio -g mode 5 out
@@ -16,12 +16,12 @@ gpio -g write 24 0
 echo "motor1 go"
 gpio -g write 5 1
 
-sleep 1
+sleep 4
 
 echo "motor1 stop"
 gpio -g write 5 0
 
-sleep 1
+sleep 4
 
 
 # motor 2
@@ -37,12 +37,12 @@ gpio -g write 26 0
 echo "motor2 go"
 gpio -g write 17 1
 
-sleep 1
+sleep 4
 
 echo "motor2 stop"
 gpio -g write 17 0
 
-sleep 1
+sleep 4
 
 
 # motor 3
@@ -58,12 +58,12 @@ gpio -g write 16 0
 echo "motor3 go"
 gpio -g write 12 1
 
-sleep 1
+sleep 4
 
 echo "motor3 stop"
 gpio -g write 12 0
 
-sleep 1
+sleep 4
 
 
 # motor 4
@@ -77,11 +77,11 @@ gpio -g write 13 1
 gpio -g write 18 0
 
 echo "motor4 go"
-gpio -g write 18 1
+gpio -g write 25 1
 
-sleep 1
+sleep 4
 
 echo "motor4 stop"
-gpio -g write 18 0
+gpio -g write 25 0
 
-sleep 1
+sleep 4
