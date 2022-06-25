@@ -29,8 +29,7 @@ Editing cron with...
 ### Soil Sensor
 ![soil-sensor-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/soil-sensor-pinout-diagram.png)
 
-
-### PiZero
+### MotoZero
 ![motozero-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/motozero-pinout-diagram.png)
 
 ### Pi
