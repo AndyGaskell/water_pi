@@ -34,7 +34,7 @@ Editing cron with...
 ![motozero-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/motozero-pinout-diagram.png)
 
 ### Pi
-![pi-gpio-pinout-diagram](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/pi-gpio-pinout-diagram.png)
+![pi_zero_pinout](https://raw.githubusercontent.com/AndyGaskell/water_pi/main/docs/pi_zero_pinout.png)
 
 
 ## Links
